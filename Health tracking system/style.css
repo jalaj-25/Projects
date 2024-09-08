@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    background-color: #3832a8;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 40px;
+}
+
+.nav-logo {
+    background-repeat:none;
+    background-image: url("logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    color: #3832a8;
+    background-color: black;
+    font-size: 200%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    position: sticky;
+    text-decoration: none;
+    text-align: center;    
+}
+
+.nav-home, .nav-about, .nav-logo, .nav-login, .nav-tut{
+    background-color: transparent;
+}
+
+.img {
+    height: 250px;
+    width: 750px;
+    background-image: url("2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.context {
+    display: flex;
+    margin-top: 20px;
+}
+
+.background {
+    width: 50%;
+    padding: 20px;
+    /* height: 88vh;
+    background-image: url("health_care.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.content{
+    height: 850px;
+    background-color: #808080;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 70px;
+    justify-content: space-around;
+    padding-left: 125px;
+}
+
+.items{
+    width: 100%;
+}
+
+.box{
+    height: 350px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 5%;
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    top: 15px;
+}
+
+.box1 {
+    width: 300px;
+    height: 300px;
+    background-image: url("https://th.bing.com/th?id=OIP.JzO00XjcvjY06lwxUDn6qAHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5% 5%;
+  }
+
+  .box2{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRidOWkpXQtKI9WydQ4KKjMBQBWSAYw_NW6i104DImPLL_kHkV2gpc5drKxlvUgCPyhQ4c&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5% 5%;
+  }
+
+  .box3{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://blogassets.leverageedu.com/media/uploads/sites/2/2023/10/11123537/%E0%A4%87%E0%A4%82%E0%A4%95%E0%A4%B2%E0%A4%BE%E0%A4%AC-%E0%A4%9C%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A4%BE%E0%A4%AC%E0%A4%BE%E0%A4%A6-%E0%A4%B6%E0%A4%BE%E0%A4%AF%E0%A4%B0%E0%A5%80.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5% 5%;
+  }
+
+  .box4{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb3ZQ1KfEQRLHB-UZZ1twAx1fXzvsLfhqHMm6jVGGHIDeJdhK4_fPIPKE07Jdd1nIppTQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5% 5%;
+}
+
+.box5{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://th.bing.com/th/id/OIP.U0XUCCK8W6tLrNgy-eJ2MAHaDq?w=315&h=173&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5% 5%;
+  }
+  
+  h1{
+    color: aliceblue;
+  }
+
+
+.reports {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 500px;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+}
+
+.cards {
+    height: 450px;
+    width: 450px;
+    border: 2px solid white;
+    background-image: url("report.jpg");
+    background-repeat: no-repeat;
+    background-size: fit-content;
+    background-position: center;
+    aspect-ratio: 3/2;
+    margin-top: 50%;
+    margin-top: 24px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+}
+
+.station {
+    height: 450px;
+    width: 450px;
+    margin-top: 24px;
+    object-fit: contain;
+    border: 2px solid white;
+    background-image: url("workout.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: fit-content;
+    aspect-ratio: 3/2;
+    background-color: aliceblue;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+}
+
+.station:hover, .cards:hover {
+    animation: transformImage 5s ease-in-out infinite;
+}
+
+:root {
+    --scale-factor: 1.1; /* Default scale factor */
+}
+
+@keyframes transformImage {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(var(--scale-factor));
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.content2{
+    background-image: url("time.jpeg");
+    background-position-x: 20%;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    width: 100%;
+    height: 600px;
+}
+
+.text {
+    font-size: 200%;    
+    font-size: 200;
+    color: aliceblue;
+    height: 100px;
+    width: 50%;
+    position: relative;
+    left: 5%;
+    top: 40%;
+}
+
+.txt {
+    font-size: 200%;    
+    font-size: 200;
+    color: aliceblue;
+    height: 100px;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    top: 20%;
+}
+
+.footer {
+    height: calc();
+    color: antiquewhite;
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+}
